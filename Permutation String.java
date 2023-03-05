@@ -4,8 +4,6 @@ public class Main {
 
    static void solve(String str, List<String> ans, int index){
         if(index==str.length()){
-            //copy dummy to ans
-            //this dummy contains my final permutation
             ans.add(str);
             return;
         }
